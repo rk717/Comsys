@@ -1,2 +1,26 @@
 我们总有一些数据需要临时存放在内存，以待后续使用时快速读出。
 
+#!/bin/bash
+
+name='JeremyLin'
+age=13
+score=100
+
+echo "name: $name, age: $age, score: $score"
+
+#name: JeremyLin, age: 13, score: 100
+------------------------------------------------------
+比较小数
+
+#!/bin/bash
+
+num1=`echo "1.5*10"|bc|cut -d "." -f1`
+num2=$((2*10))
+
+test $num1 -gt $num2;echo $?
+
+# 1
+
+bash -x 2array.sh 
+用 -x 来查看 debug
+--------------------------------------------------
