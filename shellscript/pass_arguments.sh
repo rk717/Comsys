@@ -10,3 +10,9 @@ args=("$@")
 echo $@
 
 echo $#
+
+
+$ ./shell_test.sh joon sad dm
+joon sad dm > echo $1 $2 $3
+joon sad dm
+3
