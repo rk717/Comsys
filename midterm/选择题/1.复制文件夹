@@ -1,2 +1,0 @@
-复制dir1 的文件夹 到 dir3 里
-cp ./subdir_1/file.txt ./subdir_2/file.txt
