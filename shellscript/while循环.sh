@@ -1,5 +1,32 @@
 #!/bin/sh
 
+#!/bin/bash
+
+# while [ condition ]
+# do
+#     command1
+#     command2
+#     command3
+# done
+
+n=1
+
+# while [ $n -le 10 ]
+# do 
+#     echo "$n"
+#     n=$(( n+1 ))   #(( n++ ))
+# done 
+######################################
+
+#using sleep in the loop
+while [ $n -le 10 ]
+do 
+    echo "$n"
+    n=$(( n+1 ))   #(( n++ ))
+    sleep 1
+done 
+-------------------------------
+
 #知道循环次数用for，不知道循环次数就用for
 
 # read -p "Num: " num1
