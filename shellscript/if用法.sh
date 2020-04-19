@@ -1,5 +1,34 @@
 #!/bin/bash
 
+#!/bin/bash
+
+#if statement
+
+# if [ condition ]
+# then 
+#     statement
+# fi
+
+# count=10
+
+# if [ $count -gt 9 ]
+# then
+#     echo "condition is true"
+# fi
+
+word=abcccc
+if [ $word == "abc" ]
+then 
+    echo "condition is true"
+elif [ $word == "abcccc" ]
+then
+    echo "this is a elif"
+else
+    echo "not true"
+fi
+
+
+-----------------------------------------------------------
 #假如在~/Documents/shell没有这个文件夹，那么就创造一个
 
 if [ ! -d //abc ]
